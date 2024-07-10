@@ -60,7 +60,7 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## 📩 Contact
 
-Ben Roma - [your-email@example.com](mailto:your-email@example.com)
+Ben Roma
 
 Project Link: [https://github.com/ben-roma/NetAutoSys_with_Ansible](https://github.com/ben-roma/NetAutoSys_with_Ansible)
 
