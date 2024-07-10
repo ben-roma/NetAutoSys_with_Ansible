@@ -1,7 +1,8 @@
+
 # NetAutoSys with Ansible
 
 ## 🌐 About The Project
-This repository contains the implementation of automated DMVPN (Dynamic Multipoint Virtual Private Network) deployment using Ansible. Developed as part of a Master's thesis at Kigali Independent University, this project aims to simplify network management across multi-vendor environments, enhancing efficiency and reducing error through automation.
+This repository contains the implementation of automated DMVPN (Dynamic Multipoint Virtual Private Network) deployment using Ansible. Developed as part of a Master's thesis at Kigali Independent University, this project aims to simplify network management across multi-vendor environments, enhancing efficiency and reducing errors through automation.
 
 ### 🛠 Built With
 - **Ansible**: Used for automating network configuration and management tasks.
@@ -18,46 +19,54 @@ To get a local copy up and running follow these simple steps.
   ```sh
   sudo apt update
   sudo apt install ansible
-GNS3
-Follow the official GNS3 installation guide
-Installation
-Clone the repo
+  ```
+- **GNS3**
+  - [Follow the official GNS3 installation guide](https://docs.gns3.com/docs/getting-started/installation/)
 
-sh
-Copier le code
-git clone https://github.com/ben-roma/NetAutoSys_with_Ansible.git
-Navigate to the project directory
+### Installation
 
-sh
-Copier le code
-cd NetAutoSys_with_Ansible
-Edit the inventory files to include your network devices' IPs and credentials.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/ben-roma/NetAutoSys_with_Ansible.git
+   ```
+2. Navigate to the project directory
+   ```sh
+   cd NetAutoSys_with_Ansible
+   ```
+3. Edit the inventory files to include your network devices' IPs and credentials.
 
-Run the Ansible playbook to set up the network.
+4. Run the Ansible playbook to set up the network.
+   ```sh
+   ansible-playbook setup-network.yml
+   ```
 
-sh
-Copier le code
-ansible-playbook setup-network.yml
-📚 Usage
+## 📚 Usage
+
 Use this automation setup to deploy DMVPN configurations across your network devices efficiently. Modify the Ansible playbooks as needed to fit your specific network requirements.
 
-📄 License
-Distributed under the MIT License. See LICENSE for more information.
+## 📄 License
 
-🤝 Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-📩 Contact
-Ben Obame
-Project Link: https://github.com/ben-roma/NetAutoSys_with_Ansible
+## 🤝 Contributing
 
-📖 Acknowledgements
-Ansible Documentation
-GNS3 Community
-Kigali Independent University
-ALX Africa
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📩 Contact
+
+Ben Roma - [your-email@example.com](mailto:your-email@example.com)
+
+Project Link: [https://github.com/ben-roma/NetAutoSys_with_Ansible](https://github.com/ben-roma/NetAutoSys_with_Ansible)
+
+## 📖 Acknowledgements
+
+- [Ansible Documentation](https://docs.ansible.com/)
+- [GNS3 Community](https://www.gns3.com/community)
+- [Kigali Independent University](http://ulk.ac.rw/)
+- [ALX Africa](https://www.alxafrica.com/)
